@@ -1,6 +1,7 @@
 <template>
   <h1>Forms</h1>
   <div class="container">
+    <LoginForm></LoginForm>
 
 
   </div>
@@ -11,6 +12,7 @@
 
 
 
+import LoginForm from "./components/LoginForm.vue";
 </script>
 
 <style scoped>
